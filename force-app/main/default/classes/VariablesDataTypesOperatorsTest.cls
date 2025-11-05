@@ -5,9 +5,9 @@
 * The main purpose of this test class is to ensure the accuracy and correctness of the methods in the VariablesDataTypesOperators class.
 */
 
-@IsTest
+@isTest
 public class VariablesDataTypesOperatorsTest {
-    @IsTest
+    @isTest
     static void testAddition() {
         Integer result = VariablesDataTypesOperators.addition(2, 3);
         Assert.areEqual(5, result, 'Incorrect addition result');
